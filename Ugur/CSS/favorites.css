@@ -1,0 +1,26 @@
+body {
+  background-color: rgb(241, 241, 236);
+}
+
+img.movies {
+  width: 500px;
+  height: 500px;
+  text-decoration: none;
+}
+img.books {
+  width: 500px;
+  height: 600px;
+  text-decoration: none;
+}
+ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+}
+h1 {
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+}

@@ -1,0 +1,26 @@
+body {
+  background-color: rgb(241, 241, 236);
+}
+
+img.frontend {
+  width: 300px;
+  height: 300px;
+  margin: 180px;
+}
+
+h1,
+h2 {
+  text-align: center;
+}
+
+img.backend {
+  width: 300px;
+  height: 300px;
+  margin: 180px 500px 180px 500px;
+}
+
+img.tools {
+  width: 300px;
+  height: 300px;
+  margin: 180px;
+}
