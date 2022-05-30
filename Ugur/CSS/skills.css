@@ -1,11 +1,66 @@
+html,
 body {
-  background-color: rgb(241, 241, 236);
+  border: none;
+  margin: 0;
+  padding: 0;
+}
+/* ------------------------nav style---------------------------- */
+.logo {
+  position: absolute;
+  z-index: 100;
+  width: 10rem;
+  height: 10rem;
 }
 
-img.frontend {
+nav {
+  width: 100%;
+  height: 200px;
+  background-color: rgb(135, 200, 240);
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+}
+
+li {
+  margin-right: 50px;
+  font-size: 2rem;
+  padding: 10px;
+  border-radius: 10px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+li:hover {
+  background-color: rgb(97, 187, 243);
+}
+
+a {
+  text-decoration: none;
+  color: blanchedalmond;
+}
+
+/* ---------------------------------------------------- */
+
+.frontend {
   width: 300px;
   height: 300px;
   margin: 180px;
+}
+.backend:hover {
+  background-color: aqua;
+}
+
+.tools:hover {
+  background-color: aqua;
+}
+
+.frontend:hover {
+  background-color: aqua;
 }
 
 h1,
@@ -13,13 +68,13 @@ h2 {
   text-align: center;
 }
 
-img.backend {
+.backend {
   width: 300px;
   height: 300px;
   margin: 180px 500px 180px 500px;
 }
 
-img.tools {
+.tools {
   width: 300px;
   height: 300px;
   margin: 180px;
